@@ -2,8 +2,11 @@ import graphql from "graphql";
 import graphqlRequest from "graphql-request";
 
 export default {
-  name: "Source Demo",
-  description: "This is a demo source",
+  name: "New Source Demo",
+  type: "source",
+  version: "0.0.1",
+  key: "new-source-demo",
+  description: "Emit new event",
   async run() {
     console.log("graphql", graphql);
     console.log("graphqlRequest", graphqlRequest);
