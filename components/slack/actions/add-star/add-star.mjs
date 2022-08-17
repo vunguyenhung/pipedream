@@ -30,7 +30,7 @@ export default {
         "file",
       ],
       optional: true,
-      description: "File to add star to.",
+      description: "File to add star to. Updated",
     },
   },
   async run() {
