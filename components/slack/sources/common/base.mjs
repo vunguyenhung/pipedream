@@ -56,9 +56,22 @@ export default {
           });
           return info.team.name;
         } catch (err) {
-          console.log("Error getting team name, probably need to re-connect the account at pipedream.com/apps", err);
+          console.log("Error getting team name, probably need to re-connect the account at pipedream.com/apps!!!", err);
           return id;
         }
+      });
+    },
+    async getLastMessage({
+      channel, event_ts,
+    }) {
+      return this.maybeCached(`lastMessage:${channel}:${event_ts}`, async () => {
+        const info = await this.slack.sdk().conversations.history({
+          channel,
+          latest: event_ts,
+          limit: 1,
+          inclusive: true,
+        });
+        return info;
       });
     },
     processEvent(event) {
