@@ -22,6 +22,7 @@ export default {
     },
   },
   async run() {
+    console.log('Updated!')
     return await this.slack.sdk().conversations.create({
       name: this.channelName,
       is_private: this.isPrivate,

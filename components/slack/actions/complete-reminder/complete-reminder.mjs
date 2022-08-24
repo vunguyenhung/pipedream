@@ -16,6 +16,7 @@ export default {
     },
   },
   async run() {
+    console.log('Updated!')
     return await this.slack.sdk().reminders.complete({
       reminder: this.reminder,
     });
