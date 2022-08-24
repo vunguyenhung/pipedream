@@ -4,7 +4,7 @@ export default {
   key: "slack-archive-channel",
   name: "Archive Channel",
   description: "Archive a channel. [See docs here](https://api.slack.com/methods/conversations.archive)",
-  version: "0.0.4",
+  version: "0.0.5",
   type: "action",
   props: {
     slack,
@@ -16,6 +16,7 @@ export default {
     },
   },
   async run() {
+    console.log('Updated!')
     return await this.slack.sdk().conversations.archive({
       channel: this.conversation,
     });

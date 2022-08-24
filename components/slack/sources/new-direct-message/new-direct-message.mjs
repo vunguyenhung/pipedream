@@ -4,7 +4,7 @@ export default {
   ...common,
   key: "slack-new-direct-message",
   name: "New Direct Message (Instant)",
-  version: "1.0.0",
+  version: "1.0.1",
   description: "Emit new event when a message was posted in a direct message channel",
   type: "source",
   dedupe: "unique",
@@ -36,7 +36,7 @@ export default {
   methods: {
     ...common.methods,
     getSummary() {
-      return "New direct message received";
+      return "New direct message received!";
     },
     processEvent(event) {
       if (this.ignoreMyself && event.user == this.slack.mySlackId()) {
