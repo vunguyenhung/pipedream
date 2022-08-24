@@ -36,7 +36,7 @@ export default {
   methods: {
     ...common.methods,
     getSummary() {
-      return "New direct message received";
+      return "New direct message received!";
     },
     processEvent(event) {
       if (this.ignoreMyself && event.user == this.slack.mySlackId()) {
