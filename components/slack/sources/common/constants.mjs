@@ -1,3 +1,4 @@
+const newVar = 'newVar'
 const events = {
   im: "User",
   message: "Message",

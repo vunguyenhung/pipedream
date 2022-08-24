@@ -1,10 +1,10 @@
 import slack from "../../slack.app.mjs";
 
 export default {
-  key: "slack-add-star",
-  name: "Add Star",
-  description: "Add a star to an item on behalf of the authenticated user. [See docs here](https://api.slack.com/methods/stars.add)",
-  version: "0.0.5",
+  key: "slack-add-star-test",
+  name: "Add Star Test",
+  description: "[TEST] Add a star to an item on behalf of the authenticated user. [See docs here](https://api.slack.com/methods/stars.add)",
+  version: "0.0.1",
   type: "action",
   props: {
     slack,

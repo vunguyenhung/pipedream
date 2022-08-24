@@ -5,7 +5,7 @@ import reasons from "../../common/reasons.mjs";
 export default {
   ...common,
   name: "Continue Workflow on Condition",
-  version: "0.0.1",
+  version: "0.0.2",
   key: "filter-continue-workflow-condition",
   description: "Continue workflow based on the comparison of 2 values",
   type: "action",
@@ -16,7 +16,7 @@ export default {
         filter,
         "reason",
       ],
-      description: "The reason for ending the workflow",
+      description: "The reason for ending the workflow without bump up version 1",
       default: reasons.END,
       optional: true,
     },
