@@ -12,6 +12,7 @@ export default {
   },
   methods: {
     generateMeta: function (item) {
+      console.log("Update!");
       return {
         id: this.rss.itemKey(item),
         summary: item.title,
