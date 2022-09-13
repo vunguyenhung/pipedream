@@ -1,0 +1,18 @@
+{
+  "name": "@pipedream/testtypescript",
+  "version": "0.0.2",
+  "description": "Pipedream Typescript",
+  "main": "dist/app/app.app.mjs",
+  "keywords": [
+    "pipedream"
+  ],
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://pipedream.com/apps/testtypescript",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

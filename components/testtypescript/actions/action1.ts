@@ -1,9 +1,9 @@
 import { defineAction } from "@pipedream/types";
 
 export default defineAction({
-  name: "Test Typescript action that won't compile",
+  name: "Test Typescript action",
   description: "Won't compile",
-  key: "testtypescript-wont-compile",
+  key: "testtypescript-compile",
   version: "1.0.0",
   type: "action",
   props: { },
