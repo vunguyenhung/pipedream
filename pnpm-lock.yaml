@@ -1913,6 +1913,9 @@ importers:
       node-telegram-bot-api: 0.54.0
       uuid: 8.3.2
 
+  components/testtypescript:
+    specifiers: {}
+
   components/textit:
     specifiers:
       '@pipedream/platform': ^1.1.0

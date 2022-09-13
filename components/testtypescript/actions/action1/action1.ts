@@ -1,8 +1,9 @@
 import { defineAction } from "@pipedream/types";
+import app from "../../app/app";
 
 export default defineAction({
   name: "Test Typescript action",
-  description: "Won't compile",
+  description: "Test typescript action",
   key: "testtypescript-compile",
   version: "1.0.0",
   type: "action",

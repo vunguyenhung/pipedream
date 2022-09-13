@@ -1,18 +1,21 @@
 {
   "name": "@pipedream/testtypescript",
-  "version": "0.0.2",
-  "description": "Pipedream Typescript",
-  "main": "dist/app/app.app.mjs",
+  "version": "0.0.3",
+  "description": "Pipedream Lob Components",
+  "main": "dist/app/app.mjs",
   "keywords": [
-    "pipedream"
+    "pipedream",
+    "lob"
   ],
   "files": [
     "dist"
   ],
-  "homepage": "https://pipedream.com/apps/testtypescript",
+  "homepage": "https://pipedream.com/apps/lob",
   "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "dependencies": {}
 }
+
