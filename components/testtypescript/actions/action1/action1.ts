@@ -1,5 +1,5 @@
 import { defineAction } from "@pipedream/types";
-import app from "../../app/app";
+import app from "../../app/testtypescript.app";
 
 export default defineAction({
   name: "Test Typescript action",
