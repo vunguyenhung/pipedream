@@ -2,7 +2,7 @@
   "name": "@pipedream/testtypescript",
   "version": "0.0.3",
   "description": "Pipedream Lob Components",
-  "main": "dist/app/app.mjs",
+  "main": "dist/app/testtypescript.app.mjs",
   "keywords": [
     "pipedream",
     "lob"
@@ -10,7 +10,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://pipedream.com/apps/lob",
+  "homepage": "https://pipedream.com/apps/testtypescript",
   "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
   "license": "MIT",
   "publishConfig": {

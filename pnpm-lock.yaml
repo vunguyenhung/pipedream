@@ -1079,6 +1079,12 @@ importers:
     dependencies:
       '@lob/lob-typescript-sdk': 1.0.0
 
+  components/lob1:
+    specifiers:
+      '@lob/lob-typescript-sdk': ^1.0.0
+    dependencies:
+      '@lob/lob-typescript-sdk': 1.0.0
+
   components/looker:
     specifiers: {}
 
