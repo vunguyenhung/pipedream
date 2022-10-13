@@ -1,4 +1,4 @@
-import common from '../../test-common.mjs'
+import common from '../../common.mjs'
 
 export default {
   name: "Do Thing A",
