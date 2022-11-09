@@ -1,6 +1,6 @@
 export default {
   type: "app",
-  app: "leo-test-2033",
+  app: "leo_test_2033",
   propDefinitions: {},
   methods: {
     // this.$auth contains connected account data
