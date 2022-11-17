@@ -78,7 +78,6 @@ export default {
   },
   methods: {},
   async run(event) {
-    console.log('should fail when version is not bump up')
     this.$emit(
       {
         event,
