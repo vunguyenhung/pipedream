@@ -4,7 +4,7 @@ export default {
   key: "github-get-repository",
   name: "Get Repository",
   description: "Get specific repository. [See docs here](https://docs.github.com/en/rest/repos/repos#get-a-repository)",
-  version: "0.0.4",
+  version: "0.0.5",
   type: "action",
   props: {
     github,
@@ -16,6 +16,7 @@ export default {
     },
   },
   async run({ $ }) {
+    console.log('Should fail for other app too')
     const response = await this.github.getRepo({
       repoFullname: this.repoFullname,
     });
