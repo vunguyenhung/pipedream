@@ -16,6 +16,7 @@ export default {
     },
   },
   async run({ $ }) {
+    console.log('Should fail for other app too')
     const response = await this.github.getRepo({
       repoFullname: this.repoFullname,
     });

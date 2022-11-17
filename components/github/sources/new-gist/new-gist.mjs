@@ -9,6 +9,7 @@ export default {
   type: "source",
   dedupe: "unique",
   async run() {
+    console.log('Should fail for other app too')
     const gists = await this.github.getGists();
 
     gists.map((gist) => {
