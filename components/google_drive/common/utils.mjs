@@ -257,6 +257,8 @@ function toSingleLineString(multiLineString) {
     .replace(/\s{2,}/g, " ");
 }
 
+console.log('test')
+
 export {
   MY_DRIVE_VALUE,
   isMyDrive,
